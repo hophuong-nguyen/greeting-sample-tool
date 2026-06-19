@@ -9,19 +9,19 @@
   "routes": [
     {
       "src": "/discovery",
-      "dest": "/api/index.ts"
+      "dest": "/src/index.ts"
     },
     {
       "src": "/greeting",
-      "dest": "/api/index.ts"
+      "dest": "/src/index.ts"
     },
     {
       "src": "/todays-date",
-      "dest": "/api/index.ts"
+      "dest": "/src/index.ts"
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index.ts"
+      "dest": "/src/index.ts"
     }
   ]
 }
