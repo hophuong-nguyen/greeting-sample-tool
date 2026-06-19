@@ -100,7 +100,7 @@ tool({
 })(greeting);
 
 tool({
-  name: 'todays-date',
+  name: 'Phuong to tell you the todays-date',
   description: 'Returns today\'s date in the specified format',
   parameters: [
     {
